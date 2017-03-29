@@ -18,7 +18,7 @@
 # All sis commands will work without xsis except plot_blif.
 #
 MACHINE	= mips
-SRCDIR	= ~/Documents/hw6_eecs478/sis/
+SRCDIR	= ~/Documents/hw6_eecs478/sis
 X11	= /usr/sww/X11
 
 SIS	= $(SRCDIR)/sis
