@@ -1,0 +1,36 @@
+.model c0
+
+.inputs a b c d e f
+
+.outputs z1 z2
+
+.names a b c z2
+0-- 1
+-0- 1
+--0 1
+
+.names b c f1
+00 1
+01 1
+10 1
+
+.names f1 f2
+0 1
+
+.names d f2 f3
+00 1
+01 1
+10 1
+
+.names d e f1 f4
+0-- 1
+-0- 1
+--0 1
+
+.names f f4 f3 z1
+0-- 1
+-0- 1
+--0 1
+
+
+.end
